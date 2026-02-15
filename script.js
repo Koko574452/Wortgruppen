@@ -65,9 +65,9 @@ const levels = [
     title: "Level 3",
     words: [
       "Des","Es","As","Fis",
-      "der","die","ein","eine",
-      "das","was","nass","blass",
-      "und","oder","aber","denn"
+      "Der","Die","Ein","Eine",
+      "Das","Was","Nass","Blass",
+      "Feucht","Regen","Tau","Tropfen"
     ],
     groups: [
   {
