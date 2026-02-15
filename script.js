@@ -1,126 +1,152 @@
 const levels = [
   {
     title: "Level 1",
-    words: [
-      "einfach","leicht","simpel","machbar",
-      "schwierig","kompliziert","hart","anstrengend",
-      "eins","zwei","drei","vier",
-      "A","B","C","D"
-    ],
     groups: [
-  {
-    name: "Einfach",
-    color: "#6aaa64",
-    words: ["einfach","leicht","simpel","machbar"]
-  },
-  {
-    name: "Schwierig",
-    color: "#f2b705",
-    words: ["schwierig","kompliziert","hart","anstrengend"]
-  },
-  {
-    name: "Zahlen",
-    color: "#5a9bd5",
-    words: ["eins","zwei","drei","vier"]
-  },
-  {
-    name: "Buchstaben",
-    color: "#b565d9",
-    words: ["A","B","C","D"]
-  }
+      {
+        name: "Einfach",
+        color: "#6aaa64",
+        words: ["einfach","leicht","simpel","machbar"]
+      },
+      {
+        name: "Schwierig",
+        color: "#f2b705",
+        words: ["schwierig","kompliziert","hart","anstrengend"]
+      },
+      {
+        name: "Zahlen",
+        color: "#5a9bd5",
+        words: ["eins","zwei","drei","vier"]
+      },
+      {
+        name: "Buchstaben",
+        color: "#b565d9",
+        words: ["A","B","C","D"]
+      }
     ]
   },
   {
     title: "Level 2",
-    words: [
-      "Lithium","Natrium","Kalium","Caesium",
-      "Kohle","Erz","Uran","Edelsteine",
-      "Kohlenstoffdioxid","Wasser","Glukose","Sauerstoff",
-      "Salz","Topf","Schinken","Buch"
-    ],
     groups: [
-  {
-    name: "Elemente der 1. Hauptgruppe",
-    color: "#6aaa64",
-    words: ["Lithium","Natrium","Kalium","Caesium"]
-  },
-  {
-    name: "Baut man in Bergwerken ab",
-    color: "#f2b705",
-    words: ["Kohle","Erz","Uran","Edelsteine"]
-  },
-  {
-    name: "Ausgangs- und Endstoffe der Photosynthese",
-    color: "#5a9bd5",
-    words: ["Kohlenstoffdioxid","Wasser","Glukose","Sauerstoff"]
-  },
-  {
-    name: "Koch___",
-    color: "#b565d9",
-    words: ["Salz","Topf","Schinken","Buch"]
-  }
+      {
+        name: "Elemente der 1. Hauptgruppe",
+        color: "#6aaa64",
+        words: ["Lithium","Natrium","Kalium","Caesium"]
+      },
+      {
+        name: "Baut man in Bergwerken ab",
+        color: "#f2b705",
+        words: ["Kohle","Erz","Uran","Edelsteine"]
+      },
+      {
+        name: "Ausgangs- und Endstoffe der Photosynthese",
+        color: "#5a9bd5",
+        words: ["Kohlenstoffdioxid","Wasser","Glukose","Sauerstoff"]
+      },
+      {
+        name: "Koch___",
+        color: "#b565d9",
+        words: ["Salz","Topf","Schinken","Buch"]
+      }
     ]
   },
   {
     title: "Level 3",
-    words: [
-      "Des","Es","As","Fis",
-      "Der","Die","Ein","Eine",
-      "Das","Was","Nass","Blass",
-      "Feucht","Regen","Tau","Tropfen"
-    ],
     groups: [
-  {
-    name: "Artikel",
-    color: "#6aaa64",
-    words: ["Der","Die","Ein","Eine"]
-  },
-  {
-    name: "Reimt sich",
-    color: "#f2b705",
-    words: ["Das","Was","Nass","Blass"]
-  },
-  {
-    name: "wird mit Wasser assoziiert",
-    color: "#5a9bd5",
-    words: ["Feucht","Regen","Tau","Tropfen"]
-  },
-  {
-    name: "Musiknoten",
-    color: "#b565d9",
-    words: ["Des","Es","As","Fis"]
-  }
+      {
+        name: "Artikel",
+        color: "#6aaa64",
+        words: ["Der","Die","Ein","Eine"]
+      },
+      {
+        name: "Reimt sich",
+        color: "#f2b705",
+        words: ["Das","Was","Nass","Blass"]
+      },
+      {
+        name: "Wird mit Wasser assoziiert",
+        color: "#5a9bd5",
+        words: ["Feucht","Regen","Tau","Tropfen"]
+      },
+      {
+        name: "Musiknoten",
+        color: "#b565d9",
+        words: ["Des","Es","As","Fis"]
+      }
     ]
   },
   {
     title: "Level 4",
-    words: [
-      "Fahrstuhl","Treppe","Lift","Leiter",
-      "Romanistik","Kunstgeschichte","Theologie","Germanistik",
-      "Alt","Antik","Greis","Senil",
-      "Alphabet","Etage","Betagt","Philosophie"
-    ],
     groups: [
-  {
-    name: "Damit kommt man hoch und runter",
-    color: "#6aaa64",
-    words: ["Fahrstuhl","Treppe","Lift","Leiter"]
+      {
+        name: "Damit kommt man hoch und runter",
+        color: "#6aaa64",
+        words: ["Fahrstuhl","Treppe","Lift","Leiter"]
+      },
+      {
+        name: "Geisteswissenschaften",
+        color: "#f2b705",
+        words: ["Romanistik","Kunstgeschichte","Theologie","Germanistik"]
+      },
+      {
+        name: "In die Jahre gekommen",
+        color: "#5a9bd5",
+        words: ["Alt","Antik","Greis","Senil"]
+      },
+      {
+        name: "Beginnend mit einem griechischen Buchstaben",
+        color: "#b565d9",
+        words: ["Alphabet","Etage","Betagt","Philosophie"]
+      }
+    ]
   },
   {
-    name: "Geisteswissenschaften",
-    color: "#f2b705",
-    words: ["Kunstgeschichte","Romanistik","Theologie","Germanistik"]
+    title: "Level 5",
+    groups: [
+      {
+        name: "Hausanschlüsse",
+        color: "#6aaa64",
+        words: ["Strom","Wasser","Gas","Internet"]
+      },
+      {
+        name: "Diese Dinge leuchten",
+        color: "#f2b705",
+        words: ["Sonne","Kerze","Lampe","Glühwürmchen"]
+      },
+      {
+        name: "Abkürzungen für technische Begriffe",
+        color: "#5a9bd5",
+        words: ["LED","DVD","PC","WLAN"]
+      },
+      {
+        name: "Kreisförmige Sachen",
+        color: "#b565d9",
+        words: ["Reifen","Münze","Teller","Schallplatte"]
+      }
+    ]
   },
   {
-    name: "In die Jahre gekommen",
-    color: "#5a9bd5",
-    words: ["Alt","Antik","Greis","Senil"]
-  },
-  {
-    name: "Beginnend mit einem griechischen Buchstaben",
-    color: "#b565d9",
-    words: ["Alphabet","Etage","Betagt","Philosophie"]
-  }
+    title: "Level 6",
+    groups: [
+      {
+        name: "Gartengeräte",
+        color: "#6aaa64",
+        words: ["Spaten","Gießkanne","Harke","Astschere"]
+      },
+      {
+        name: "geometrische Körper",
+        color: "#f2b705",
+        words: ["Würfel","Kugel","Pyramide","Kegel"]
+      },
+      {
+        name: "Monopoly-Figuren",
+        color: "#5a9bd5",
+        words: ["Schuh","Schubkarre","Rennwagen","Zylinder"]
+      },
+      {
+        name: "Dinge mit Löchern",
+        color: "#b565d9",
+        words: ["Nase","Golfplatz","Emmentaler","Bowlingkugel"]
+      }
     ]
   }
 ];
@@ -149,7 +175,10 @@ function loadLevel() {
   const level = levels[currentLevel];
   levelTitle.textContent = level.title;
 
-  shuffle(level.words).forEach(word => {
+  // 🔥 ALLE WÖRTER AUTOMATISCH AUS DEN KATEGORIEN SAMMELN
+  const allWords = level.groups.flatMap(group => group.words);
+
+  shuffle(allWords).forEach(word => {
     const div = document.createElement("div");
     div.textContent = word;
     div.className = "tile";
@@ -157,7 +186,6 @@ function loadLevel() {
     grid.appendChild(div);
   });
 }
-
 
 function toggleSelect(tile, word) {
   if (tile.classList.contains("correct")) return;
@@ -193,11 +221,13 @@ document.getElementById("check-btn").onclick = () => {
       });
 
       message.textContent = `✅ ${group.name}`;
+
       const tag = document.createElement("div");
       tag.className = "category-tag";
       tag.textContent = group.name;
       tag.style.backgroundColor = group.color;
       foundCategories.appendChild(tag);
+
       selected = [];
 
       if (document.querySelectorAll(".correct").length === 16) {
@@ -228,6 +258,5 @@ function shuffle(array) {
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
 }
-
 
 loadLevel();
