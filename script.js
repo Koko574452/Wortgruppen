@@ -29,7 +29,7 @@ const levels = [
     groups: [
       {
         name: "Elemente der 1. Hauptgruppe",
-        color: "#6aaa64",
+        color: "#66aa64",
         words: ["Lithium","Natrium","Kalium","Caesium"]
       },
       {
@@ -39,12 +39,12 @@ const levels = [
       },
       {
         name: "Ausgangs- und Endstoffe der Photosynthese",
-        color: "#5a9bd5",
+        color: "#1d7bff",
         words: ["Kohlenstoffdioxid","Wasser","Glukose","Sauerstoff"]
       },
       {
         name: "Koch___",
-        color: "#b565d9",
+        color: "#cb4cf5",
         words: ["Salz","Topf","Schinken","Buch"]
       }
     ]
@@ -146,6 +146,81 @@ const levels = [
         name: "Dinge mit Löchern",
         color: "#b565d9",
         words: ["Nase","Golfplatz","Emmentaler","Bowlingkugel"]
+      }
+    ]
+  },
+  {
+    title: "Level 7",
+    groups: [
+      {
+        name: "Farbe mit einem Wort davor",
+        color: "#6aaa64",
+        words: ["Eigelb","Abendrot","Blutorange","Himmelblau"]
+      },
+      {
+        name: "In die Biotonne",
+        color: "#f2b705",
+        words: ["Eierschale","Blumen","Teebeutel","Obstreste"]
+      },
+      {
+        name: "Kann man abschließen",
+        color: "#5a9bd5",
+        words: ["Vertrag","Tür","Versicherung","Ausbildung"]
+      },
+      {
+        name: "___Bett",
+        color: "#b565d9",
+        words: ["Gleis","Hoch","Ehe","Fluss"]
+      }
+    ]
+  },
+  {
+    title: "Level 8",
+    groups: [
+      {
+        name: "Auf der Autobahn",
+        color: "#6aaa64",
+        words: ["Leitplanke","Blitzer","Seitenstreifen","Notrufsäule"]
+      },
+      {
+        name: "Olympische Sportarten",
+        color: "#f2b705",
+        words: ["Rudern","Turmspringen","Segeln","Wasserball"]
+      },
+      {
+        name: "Boote, Schiffe",
+        color: "#5a9bd5",
+        words: ["Yacht","Katamaran","Kanu","Schlauchboot"]
+      },
+      {
+        name: "Palindrome",
+        color: "#b565d9",
+        words: ["Radar","Rentner","Kajak","Neben"]
+      }
+    ]
+  },
+  {
+    title: "Level 9",
+    groups: [
+      {
+        name: "Im Werkzeugkasten",
+        color: "#6aaa64",
+        words: ["Hammer","Wasserwaage","Schraubenschlüssel","Maßband"]
+      },
+      {
+        name: "Schusswaffen",
+        color: "#f2b705",
+        words: ["Armbrust","Gewehr","Revolver","Flinte"]
+      },
+      {
+        name: "Rund um die Geige",
+        color: "#5a9bd5",
+        words: ["Bogen","Saite","Schnecke","Steg"]
+      },
+      {
+        name: "Mordwerkzeuge bei Cluedo",
+        color: "#b565d9",
+        words: ["Pistole","Seil","Kerzenleuchter","Rohrzange"]
       }
     ]
   }
