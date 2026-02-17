@@ -223,6 +223,31 @@ const levels = [
         words: ["Pistole","Seil","Kerzenleuchter","Rohrzange"]
       }
     ]
+  },
+  {
+    title: "Level 10",
+    groups: [
+      {
+        name: "Tiere mit langem Hals",
+        color: "#6aaa64",
+        words: ["Giraffe","Strauß","Flamingo","Brachiosaurus"]
+      },
+      {
+        name: "Achtung heiß!",
+        color: "#f2b705",
+        words: ["Kaffee","Kerze","Herdplatte","Bügeleisen"]
+      },
+      {
+        name: "Romane von Stephen King",
+        color: "#5a9bd5",
+        words: ["Es","Sie","Schwarz","Amok"]
+      },
+      {
+        name: "Klingen wie Buchstaben",
+        color: "#b565d9",
+        words: ["Tee","Geh","Kuh","Er"]
+      }
+    ]
   }
 ];
 
@@ -292,6 +317,7 @@ document.getElementById("check-btn").onclick = () => {
   for (const group of level.groups) {
     const matches = selected.filter(w => group.words.includes(w));
 
+    // ✅ Volltreffer
     if (matches.length === 4) {
       document.querySelectorAll(".tile").forEach(tile => {
         if (selected.includes(tile.textContent)) {
@@ -315,17 +341,28 @@ document.getElementById("check-btn").onclick = () => {
       if (document.querySelectorAll(".correct").length === 16) {
         message.textContent = "🎉 Level geschafft!";
         nextBtn.style.display = "block";
+
+        // ✅ Level als erledigt speichern
+        let completed = JSON.parse(localStorage.getItem("completedLevels")) || [];
+        if (!completed.includes(currentLevel)) {
+          completed.push(currentLevel);
+          localStorage.setItem("completedLevels", JSON.stringify(completed));
+        }
       }
-      return;
+
+      return; // 🔴 GANZ WICHTIG
     }
 
+    // 😬 Beinahe richtig
     if (matches.length === 3) {
       message.textContent = "😬 Fast! Eins passt nicht.";
       return;
     }
   }
 
+  // ❌ Komplett falsch
   message.textContent = "❌ Leider falsch.";
+
 };
 
 nextBtn.onclick = () => {
@@ -355,10 +392,16 @@ closeLevelsBtn.onclick = () => {
 function renderLevelModal() {
   levelGrid.innerHTML = "";
 
+  const completed = JSON.parse(localStorage.getItem("completedLevels")) || [];
+
   levels.forEach((level, index) => {
     const square = document.createElement("div");
     square.className = "level-square";
     square.textContent = index + 1;
+
+    if (completed.includes(index)) {
+      square.classList.add("completed");
+    }
 
     if (index === currentLevel) {
       square.classList.add("current");
