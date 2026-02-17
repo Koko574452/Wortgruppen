@@ -234,6 +234,12 @@ const message = document.getElementById("message");
 const levelTitle = document.getElementById("level-title");
 const nextBtn = document.getElementById("next-btn");
 const foundCategories = document.getElementById("found-categories");
+const openLevelsBtn = document.getElementById("open-levels");
+const closeLevelsBtn = document.getElementById("close-levels");
+const levelGrid = document.getElementById("level-grid");
+const gameScreen = document.getElementById("game-screen");
+const levelScreen = document.getElementById("level-screen");
+
 
 function loadLevel() {
   if (currentLevel < 0 || currentLevel >= levels.length) {
@@ -260,6 +266,7 @@ function loadLevel() {
     div.onclick = () => toggleSelect(div, word);
     grid.appendChild(div);
   });
+
 }
 
 function toggleSelect(tile, word) {
@@ -333,5 +340,43 @@ function shuffle(array) {
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
 }
+
+openLevelsBtn.onclick = () => {
+  renderLevelModal();
+  gameScreen.classList.add("hidden");
+  levelScreen.classList.remove("hidden");
+};
+
+closeLevelsBtn.onclick = () => {
+  levelScreen.classList.add("hidden");
+  gameScreen.classList.remove("hidden");
+};
+
+function renderLevelModal() {
+  levelGrid.innerHTML = "";
+
+  levels.forEach((level, index) => {
+    const square = document.createElement("div");
+    square.className = "level-square";
+    square.textContent = index + 1;
+
+    if (index === currentLevel) {
+      square.classList.add("current");
+    }
+
+    square.onclick = () => {
+      currentLevel = index;
+      localStorage.setItem("level", currentLevel);
+      levelScreen.classList.add("hidden");
+      gameScreen.classList.remove("hidden");
+      loadLevel();
+    };
+
+    levelGrid.appendChild(square); 
+  });
+}
+
+
+
 
 loadLevel();

@@ -8,17 +8,30 @@
 </head>
 <body>
 
-  <h1 id="level-title">Level</h1>
+  <div id="game-screen"></div>
 
-  <div id="grid"></div>
+    <h1 id="level-title">Level</h1>
 
-  <button id="check-btn">Auswahl prüfen</button>
+    <button id="open-levels">Levelübersicht</button>
 
-  <p id="message"></p>
+    <div id="grid"></div>
 
-  <div id="found-categories"></div>
+    <button id="check-btn">Auswahl prüfen</button>
 
-  <button id="next-btn" style="display:none;">➡️ Nächstes Level</button>
+    <p id="message"></p>
+
+    <div id="found-categories"></div>
+
+    <button id="next-btn" style="display:none;">➡️ Nächstes Level</button>
+
+  </div>
+
+  <div id="level-screen" class="hidden">
+    <h2>Level auswählen</h2>
+    <div id="level-grid"></div>
+    <button id="close-levels">Zurück zum Spiel</button>
+  </div>
+
 
   <script src="script.js?v=3"></script>
 </body>
