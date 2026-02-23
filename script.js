@@ -248,6 +248,106 @@ const levels = [
         words: ["Tee","Geh","Kuh","Er"]
       }
     ]
+  },
+  {
+    title: "Level 11",
+    groups: [
+      {
+        name: "Anagramme",
+        color: "#6aaa64",
+        words: ["Nagel","Angel","Lagen","Lange"]
+      },
+      {
+        name: "Verbindungselemente",
+        color: "#f2b705",
+        words: ["Schraube","Dübel","Mutter","Bolzen"]
+      },
+      {
+        name: "Schwimmtechniken",
+        color: "#5a9bd5",
+        words: ["Brust","Kraulen","Rücken","Schmetterling"]
+      },
+      {
+        name: "Umgangssprachlich für Fußball spielen",
+        color: "#b565d9",
+        words: ["Kicken","Zocken","Pöhlen","Tschutten"]
+      }
+    ]
+  },
+  {
+    title: "Level 12",
+    groups: [
+      {
+        name: "Wörter die auf Land enden",
+        color: "#6aaa64",
+        words: ["Helgoland","Legoland","Ausland","Vaterland"]
+      },
+      {
+        name: "Zurechtweisen",
+        color: "#f2b705",
+        words: ["Rügen","Tadeln","Verwarnen","Beanstanden"]
+      },
+      {
+        name: "Wörter mit Y an zweiter Stelle",
+        color: "#5a9bd5",
+        words: ["Sylt","Typ","System","Pyramide"]
+      },
+      {
+        name: "Wörter beginnend mit einer Himmelsrichtung",
+        color: "#b565d9",
+        words: ["Norderney","Südafrika","Ostern","Westentasche"]
+      }
+    ]
+  },
+  {
+    title: "Level 13",
+    groups: [
+      {
+        name: "Idee",
+        color: "#6aaa64",
+        words: ["Geistesblitz","Einfall","Erleuchtung","Eingebung"]
+      },
+      {
+        name: "Ausstattung eines Löschfahrzeugs",
+        color: "#f2b705",
+        words: ["Sirene","Leiter","Wassertank","Schlauch"]
+      },
+      {
+        name: "Das ist laut",
+        color: "#5a9bd5",
+        words: ["Donner","Schlagzeug","Pottwal","Feuerwerk"]
+      },
+      {
+        name: "Wörter, die auf einer Zahl enden",
+        color: "#b565d9",
+        words: ["Klavier","Nacht","Absieben","Meins"]
+      }
+    ]
+  },
+  {
+    title: "Level 14",
+    groups: [
+      {
+        name: "Reimt sich",
+        color: "#6aaa64",
+        words: ["Sarg","Karg","Mark","Park"]
+      },
+      {
+        name: "Im Wahllokal",
+        color: "#f2b705",
+        words: ["Urne","Stimmzettel","Kabine","Sichtschutz"]
+      },
+      {
+        name: "Dinge mit Flügeln",
+        color: "#5a9bd5",
+        words: ["Vogel","Flugzeug","Engel","Windmühle"]
+      },
+      {
+        name: "Jugendwörter 2025",
+        color: "#b565d9",
+        words: ["Rede","Schere","Tot","Tuff"]
+      }
+    ]
   }
 ];
 
