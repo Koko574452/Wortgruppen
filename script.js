@@ -348,6 +348,81 @@ const levels = [
         words: ["Rede","Schere","Tot","Tuff"]
       }
     ]
+  },
+  {
+    title: "Level 15",
+    groups: [
+      {
+        name: "Vielzahl, Anhäufung",
+        color: "#6aaa64",
+        words: ["Haufen","Stapel","Fülle","Masse"]
+      },
+      {
+        name: "Seefahrtsberufe",
+        color: "#f2b705",
+        words: ["Lotse","Matrose","Kapitän","Fährmann"]
+      },
+      {
+        name: "Mathematische Konzepte",
+        color: "#5a9bd5",
+        words: ["Unendlichkeit","Grenzwert","Menge","Funktion"]
+      },
+      {
+        name: "Nachnamen deutscher Schlagersängerinnen",
+        color: "#b565d9",
+        words: ["Fischer","Berg","Mai","Endlich"]
+      }
+    ]
+  },
+  {
+    title: "Level 16",
+    groups: [
+      {
+        name: "Typisch für einen Piraten",
+        color: "#6aaa64",
+        words: ["Augenklappe","Holzbein","Papagei","Säbel"]
+      },
+      {
+        name: "Rund um Ostern",
+        color: "#f2b705",
+        words: ["Eier","Hase","Verstecken","Auferstehung"]
+      },
+      {
+        name: "Kosenamen",
+        color: "#5a9bd5",
+        words: ["Schatz","Maus","Liebling","Baby"]
+      },
+      {
+        name: "Schwarz___",
+        color: "#b565d9",
+        words: ["Bär","Geld","Arbeit","Fahren"]
+      }
+    ]
+  },
+  {
+    title: "Level 17",
+    groups: [
+      {
+        name: "Baumarten",
+        color: "#6aaa64",
+        words: ["Kiefer","Kastanie","Buche","Tanne"]
+      },
+      {
+        name: "Genutzt zur Energiegewinnung",
+        color: "#f2b705",
+        words: ["Wind","Sonne","Wasser","Kohle"]
+      },
+      {
+        name: "Typisch Kanada",
+        color: "#5a9bd5",
+        words: ["Eishockey","Ahorn","Biber","Poutine"]
+      },
+      {
+        name: "Nachnamen deutscher Philosophen",
+        color: "#b565d9",
+        words: ["Fichte","Kant","Hegel","Schopenhauer"]
+      }
+    ]
   }
 ];
 
