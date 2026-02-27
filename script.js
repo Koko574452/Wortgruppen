@@ -423,6 +423,56 @@ const levels = [
         words: ["Fichte","Kant","Hegel","Schopenhauer"]
       }
     ]
+  },
+  {
+    title: "Level 18",
+    groups: [
+      {
+        name: "Tier plus ein Wort",
+        color: "#6aaa64",
+        words: ["Zebrastreifen","Vogelfrei","Aalglatt","Fuchsschwanz"]
+      },
+      {
+        name: "Durchsichtige Dinge",
+        color: "#f2b705",
+        words: ["Plexiglas","Lupe","Fenster","Frischhaltefolie"]
+      },
+      {
+        name: "davon gibt es drei",
+        color: "#5a9bd5",
+        words: ["Musketiere","Fragezeichen","Olmpische Medaillen","Ampelfarben"]
+      },
+      {
+        name: "Was 'Krebs' alles bedeuten kann",
+        color: "#b565d9",
+        words: ["Krankheit","Sternzeichen","Krustentier","Fortbewegungsart"]
+      }
+    ]
+  },
+  {
+    title: "Level 19",
+    groups: [
+      {
+        name: "Glücksspiele",
+        color: "#6aaa64",
+        words: ["Rubbellose","Poker","Black Jack","Pferdewetten"]
+      },
+      {
+        name: "Klassische Komponisten",
+        color: "#f2b705",
+        words: ["Beethoven","Händel","Haydn","Brahms"]
+      },
+      {
+        name: "Fließgewässer",
+        color: "#5a9bd5",
+        words: ["Bach","Kanal","Fluss","Strom"]
+      },
+      {
+        name: "___Kugel",
+        color: "#b565d9",
+        words: ["Mozart","Bowling","Disco","Lotto"]
+      }
+    ]
   }
 ];
 
