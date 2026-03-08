@@ -473,6 +473,81 @@ const levels = [
         words: ["Mozart","Bowling","Disco","Lotto"]
       }
     ]
+  },
+  {
+    title: "Level 20",
+    groups: [
+      {
+        name: "Grund zum Feiern",
+        color: "#6aaa64",
+        words: ["Fest","Feier","Party","Fete"]
+      },
+      {
+        name: "Im Portemonnaie",
+        color: "#f2b705",
+        words: ["Ausweis","Geld","Kreditkarte","Führerschein"]
+      },
+      {
+        name: "Aktionen beim Fußball",
+        color: "#5a9bd5",
+        words: ["Pass","Schuss","Wechsel","Parade"]
+      },
+      {
+        name: "Wörter, die mit einem Verkehrsmitel enden",
+        color: "#b565d9",
+        words: ["Umzug","Laufbahn","Allrad","Globus"]
+      }
+    ]
+  },
+  {
+    title: "Level 21",
+    groups: [
+      {
+        name: "Landwirtschaftliche Berufe",
+        color: "#6aaa64",
+        words: ["Bauer","Gärtner","Winzer","Förster"]
+      },
+      {
+        name: "Figuren beim Schach",
+        color: "#f2b705",
+        words: ["Pferd","König","Dame","Turm"]
+      },
+      {
+        name: "Deutsche Verlage",
+        color: "#5a9bd5",
+        words: ["Springer","Klett","Cornelsen","Fischer"]
+      },
+      {
+        name: "Werden mit einem Ring in Verbindung gebracht",
+        color: "#b565d9",
+        words: ["Jupiter","Boxer","Verlobte","Gollum"]
+      }
+    ]
+  },
+  {
+    title: "Level 22",
+    groups: [
+      {
+        name: "Symbole für die Liebe",
+        color: "#6aaa64",
+        words: ["Herz","Rose","Kussmund","Schloss"]
+      },
+      {
+        name: "Spezielle Punkte einer Funktion",
+        color: "#f2b705",
+        words: ["Hochpunkt","Tiefpunkt","Wendepunkt","Sattelpunkt"]
+      },
+      {
+        name: "Jemand, der sehr gut in etwas ist",
+        color: "#5a9bd5",
+        words: ["Ass","Maschine","Gott","Legende"]
+      },
+      {
+        name: "Was 'Kreuz' alles bedeuten kann",
+        color: "#b565d9",
+        words: ["Spielkarte","Schnittpunkt","Versetzungszeichen","religiöses Symbol"]
+      }
+    ]
   }
 ];
 
