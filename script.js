@@ -648,6 +648,31 @@ const levels = [
         words: ["Telefon","Haus","Start","Festnetz"]
       }
     ]
+  },
+  {
+    title: "Level 27",
+    groups: [
+      {
+        name: "Dort kann man einkaufen",
+        color: "#6aaa64",
+        words: ["Markt","Geschäft","Laden","Kaufhaus"]
+      },
+      {
+        name: "Ausstattung eines Fußballschiedsrichters",
+        color: "#f2b705",
+        words: ["Gelbe Karte","Headset","Pfeife","Uhr"]
+      },
+      {
+        name: "Deutsche Städte",
+        color: "#5a9bd5",
+        words: ["Halle","Essen","Leer","Lage"]
+      },
+      {
+        name: "Sport___",
+        color: "#b565d9",
+        words: ["Unterricht","Art","Platz","Wagen"]
+      }
+    ]
   }
 ];
 
