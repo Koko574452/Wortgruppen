@@ -548,6 +548,106 @@ const levels = [
         words: ["Spielkarte","Schnittpunkt","Versetzungszeichen","religiöses Symbol"]
       }
     ]
+  },
+  {
+    title: "Level 23",
+    groups: [
+      {
+        name: "Schmerzlich",
+        color: "#6aaa64",
+        words: ["Bitter","Ärgerlich","Schlimm","Hart"]
+      },
+      {
+        name: "Gewürze",
+        color: "#f2b705",
+        words: ["Salz","Pfeffer","Paprika","Zimt"]
+      },
+      {
+        name: "Umgangssprachlich für 'attraktiv'",
+        color: "#5a9bd5",
+        words: ["Scharf","Heiß","Reizend","Hübsch"]
+      },
+      {
+        name: "___Stoff",
+        color: "#b565d9",
+        words: ["Süß","Sauer","Wasser","Roh"]
+      }
+    ]
+  },
+  {
+    title: "Level 24",
+    groups: [
+      {
+        name: "Das ist grün",
+        color: "#6aaa64",
+        words: ["Kleeblatt","Erbse","Hulk","Smaragd"]
+      },
+      {
+        name: "Rund um die Gezeiten",
+        color: "#f2b705",
+        words: ["Ebbe","Flut","Mond","Meeresspiegel"]
+      },
+      {
+        name: "Da darf man sich etwas wünschen",
+        color: "#5a9bd5",
+        words: ["Sternschnuppe","Wimper","Wunschbrunnen","Pusteblume"]
+      },
+      {
+        name: "Davon gibt es zwölf",
+        color: "#b565d9",
+        words: ["Sternzeichen","Monate","Jünger","Töne"]
+      }
+    ]
+  },
+  {
+    title: "Level 25",
+    groups: [
+      {
+        name: "Bedeutende Ereignisse in der Vergangenheit",
+        color: "#6aaa64",
+        words: ["Mondlandung","Mauerfall","Nine Eleven","Corona-Pandemie"]
+      },
+      {
+        name: "Umgangssprachlich für 'Hunger'",
+        color: "#f2b705",
+        words: ["Knast","Kohldampf","Appetit","Jieper"]
+      },
+      {
+        name: "Menschengemachte Dinge im All",
+        color: "#5a9bd5",
+        words: ["ISS","Satellit","Teleskop","Sonde"]
+      },
+      {
+        name: "Kann man nur schwer entkommen",
+        color: "#b565d9",
+        words: ["Labyrinth","Gefängnis","Alltag","Schwerkraft"]
+      }
+    ]
+  },
+  {
+    title: "Level 26",
+    groups: [
+      {
+        name: "Das ist rot",
+        color: "#6aaa64",
+        words: ["Rose","Blut","Kirsche","Ketchup"]
+      },
+      {
+        name: "Verletzungen am Kopf bzw. im Gesicht",
+        color: "#f2b705",
+        words: ["Veilchen","Beule","Nasenbluten","Platzwunde"]
+      },
+      {
+        name: "Anglizismen",
+        color: "#5a9bd5",
+        words: ["Team","Baby","Laptop","Cool"]
+      },
+      {
+        name: "___Nummer",
+        color: "#b565d9",
+        words: ["Telefon","Haus","Start","Festnetz"]
+      }
+    ]
   }
 ];
 
