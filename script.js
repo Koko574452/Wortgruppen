@@ -673,6 +673,81 @@ const levels = [
         words: ["Unterricht","Art","Platz","Wagen"]
       }
     ]
+  },
+  {
+    title: "Level 28",
+    groups: [
+      {
+        name: "Teilgebiete der Physik",
+        color: "#6aaa64",
+        words: ["Mechanik","Thermodynamik","Optik","Atomphysik"]
+      },
+      {
+        name: "Sitzgelegenheiten",
+        color: "#f2b705",
+        words: ["Parkbank","Strandkorb","Barhocker","Klappstuhl"]
+      },
+      {
+        name: "Im Film 'Titanic'",
+        color: "#5a9bd5",
+        words: ["Eisberg","Tür","Rose","Rettungsboot"]
+      },
+      {
+        name: "Das kann 'Schein' alles bedeuten",
+        color: "#b565d9",
+        words: ["Banknote","Lichtstrahl","Täuschung","Dokument"]
+      }
+    ]
+  },
+  {
+    title: "Level 29",
+    groups: [
+      {
+        name: "Gastronomische Berufe",
+        color: "#6aaa64",
+        words: ["Koch","Kellner","Barista","Barkeeper"]
+      },
+      {
+        name: "Spitze Dinge",
+        color: "#f2b705",
+        words: ["Dart","Speer","Nadel","Dorn"]
+      },
+      {
+        name: "In der Wüste",
+        color: "#5a9bd5",
+        words: ["Kaktus","Sand","Kamel","Oase"]
+      },
+      {
+        name: "Bedeuten im Englischen etwas anderes",
+        color: "#b565d9",
+        words: ["Gift","Chef","Kind","Art"]
+      }
+    ]
+  },
+  {
+    title: "Level 30",
+    groups: [
+      {
+        name: "Waldtiere",
+        color: "#6aaa64",
+        words: ["Uhu","Reh","Bär","Wildschwein"]
+      },
+      {
+        name: "Jemanden verleiten",
+        color: "#f2b705",
+        words: ["Locken","Anwerben","Verführen","Ködern"]
+      },
+      {
+        name: "Frisuren",
+        color: "#5a9bd5",
+        words: ["Pony","Glatze","Bob","Zopf"]
+      },
+      {
+        name: "Enden mit einem Organ",
+        color: "#b565d9",
+        words: ["Kleber","Scherz","Turniere","Rohr"]
+      }
+    ]
   }
 ];
 
