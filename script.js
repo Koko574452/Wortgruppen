@@ -510,7 +510,7 @@ const levels = [
       {
         name: "Figuren beim Schach",
         color: "#f2b705",
-        words: ["Pferd","König","Dame","Turm"]
+        words: ["Läufer","König","Dame","Turm"]
       },
       {
         name: "Deutsche Verlage",
@@ -520,7 +520,7 @@ const levels = [
       {
         name: "Werden mit einem Ring in Verbindung gebracht",
         color: "#b565d9",
-        words: ["Jupiter","Boxer","Verlobte","Gollum"]
+        words: ["Saturn","Boxer","Verlobte","Gollum"]
       }
     ]
   },
@@ -746,6 +746,81 @@ const levels = [
         name: "Enden mit einem Organ",
         color: "#b565d9",
         words: ["Kleber","Scherz","Turniere","Rohr"]
+      }
+    ]
+  },
+  {
+    title: "Level 31",
+    groups: [
+      {
+        name: "Reingelegt!",
+        color: "#6aaa64",
+        words: ["Aprilscherz","Streich","Prank","Jux"]
+      },
+      {
+        name: "In Bayern",
+        color: "#f2b705",
+        words: ["Oktoberfest","München","Neuschwanstein","Nürnberg"]
+      },
+      {
+        name: "In 'Romeo und Julia'",
+        color: "#5a9bd5",
+        words: ["Verona","Lorenzo","Balkon","Paris"]
+      },
+      {
+        name: "Starten mit einem Monat",
+        color: "#b565d9",
+        words: ["Mailand","Junior","Julia","Augustusburg"]
+      }
+    ]
+  },
+  {
+    title: "Level 32",
+    groups: [
+      {
+        name: "Undeutlich reden",
+        color: "#6aaa64",
+        words: ["Murmeln","Lallen","Nuscheln","Stammeln"]
+      },
+      {
+        name: "Kinderspielzeug",
+        color: "#f2b705",
+        words: ["Murmelbahn","Puppenhaus","Bauklötze","Kuscheltier"]
+      },
+      {
+        name: "Hält man in der Hand",
+        color: "#5a9bd5",
+        words: ["Gabel","Stift","Handy","Zahnbürste"]
+      },
+      {
+        name: "Einzahl und Mehrzahl sind gleich",
+        color: "#b565d9",
+        words: ["Pinsel","Mädchen","Messer","Lehrer"]
+      }
+    ]
+  },
+  {
+    title: "Level 33",
+    groups: [
+      {
+        name: "Herrschertitel",
+        color: "#6aaa64",
+        words: ["König","Monarch","Zar","Präsident"]
+      },
+      {
+        name: "Speisefische",
+        color: "#f2b705",
+        words: ["Forelle","Karpfen","Hecht","Lachs"]
+      },
+      {
+        name: "Braucht man für ein Zelt",
+        color: "#5a9bd5",
+        words: ["Heringe","Plane","Stangen","Abspannleinen"]
+      },
+      {
+        name: "Nachnamen deutscher Schlagersänger",
+        color: "#b565d9",
+        words: ["Kaiser","Reim","Zucker","Zander"]
       }
     ]
   }
