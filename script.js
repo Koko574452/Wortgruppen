@@ -823,6 +823,56 @@ const levels = [
         words: ["Kaiser","Reim","Zucker","Zander"]
       }
     ]
+  },
+  {
+    title: "Level 34",
+    groups: [
+      {
+        name: "Schnick, Schnack, Schnuck",
+        color: "#6aaa64",
+        words: ["Schere","Stein","Papier","Brunnen"]
+      },
+      {
+        name: "Auf dem Schreibtisch",
+        color: "#f2b705",
+        words: ["Stift","Lineal","Computer","Locher"]
+      },
+      {
+        name: "Teile einer Präsentation",
+        color: "#5a9bd5",
+        words: ["Gliederung","Quellen","Einstieg","Fazit"]
+      },
+      {
+        name: "Was 'Feld' alles bedeuten kann",
+        color: "#b565d9",
+        words: ["Acker","Spielgebiet","Kästchen","Themenbereich"]
+      }
+    ]
+  },
+  {
+    title: "Level 35",
+    groups: [
+      {
+        name: "Griechische Götter",
+        color: "#6aaa64",
+        words: ["Zeus","Poseidon","Hera","Hermes"]
+      },
+      {
+        name: "Französische Gerichte",
+        color: "#f2b705",
+        words: ["Coq au vin","Boeuf Bourguignon","Croque Monsieur","Crepes"]
+      },
+      {
+        name: "Disney-Filme",
+        color: "#5a9bd5",
+        words: ["Oben","Ratatouille","Tarzan","Hercules"]
+      },
+      {
+        name: "Enthalten englische Zahlen",
+        color: "#b565d9",
+        words: ["Unten","Zone","Sonstwo","Alanine"]
+      }
+    ]
   }
 ];
 
